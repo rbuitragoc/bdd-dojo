@@ -1,0 +1,190 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: en"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "veo la pantalla de bienvenida",
+        "description": "",
+        "id": "iniciar-juego;veo-la-pantalla-de-bienvenida",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13085821062,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "ingreso al juego",
+            "match": {
+              "location": "SmokeSteps.ingreso_al_juego()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163625056,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "veo el mensaje \"Mortal Kombat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mortal Kombat",
+                  "offset": 16
+                }
+              ],
+              "location": "SmokeSteps.veo_el_mensaje(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 85986399,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "veo el boton con el texto \"Press Start\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Press Start",
+                  "offset": 27
+                }
+              ],
+              "location": "SmokeSteps.veo_el_boton_con_el_texto(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "iniciar juego",
+    "description": "Como jugador\nquiero que el juego me de la bienvenida\npara engancharme al juego",
+    "id": "iniciar-juego",
+    "keyword": "Feature",
+    "uri": "iniciarJuego.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: en"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Entrar a la pagina de seleccion de personaje",
+        "description": "",
+        "id": "seleccionar-personaje;entrar-a-la-pagina-de-seleccion-de-personaje",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994031513,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "ingreso al juego",
+            "match": {
+              "location": "SmokeSteps.ingreso_al_juego()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 178269690,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "presiono el boton con el texto \"Press Start\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Press Start",
+                  "offset": 32
+                }
+              ],
+              "location": "SmokeSteps.presiono_el_boton_con_el_texto(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35791,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "veo la pagina de seleccion de personaje",
+            "match": {
+              "location": "SmokeSteps.veo_la_pagina_de_seleccion_de_personaje()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Seleccionar personajes",
+        "description": "",
+        "id": "seleccionar-personaje;seleccionar-personajes",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 985843891,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "veo la pagina de seleccion de personaje",
+            "match": {
+              "location": "SmokeSteps.veo_la_pagina_de_seleccion_de_personaje()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26361,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "selecciono un personaje para jugador uno",
+            "match": {
+              "location": "SmokeSteps.selecciono_un_personaje_para_jugador_uno()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19725,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "selecciono un personaje para jugador dos",
+            "match": {
+              "location": "SmokeSteps.selecciono_un_personaje_para_jugador_dos()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "seleccionar personaje",
+    "description": "Como jugador\nquiero seleccionar mi personaje\npara poder iniciar una pelea con otro jugador",
+    "id": "seleccionar-personaje",
+    "keyword": "Feature",
+    "uri": "seleccionarPersonaje.feature"
+  }
+]
