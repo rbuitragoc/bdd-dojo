@@ -1,2 +1,3 @@
 <h1 id="welcome">${welcome}</h1>
 
+<input id="startbutton" type="submit" value="Press Start">

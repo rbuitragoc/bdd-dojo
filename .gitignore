@@ -12,3 +12,6 @@ gradle/
 gradlew
 gradlew.bat
 .DS_Store
+/bin/
+cucumber-html-reports/
+velocity.log
